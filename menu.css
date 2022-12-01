@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+/* main menu page */
+h1 {
+  text-align: center;
+  font-family: Times New Roman, sans-serif;
+  font-size: 30px;
+  color: white;
+  padding: 20px 20px;
+}
+
+html, body { 
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.menu {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: space-evenly;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.menu img { width: 200px; height: 200px; }
+
+.menu .item {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  background: whitesmoke;
+}
+
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 4px 8px;
+  position: relative;
+  max-width: 400px;
+  min-width: 400px;
+
+}
+.menubody {
+  background: tan;
+}
+
+.menuheader h1 {
+  margin-top: 0px;
+}
+
+/* nav design */
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+a{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  color: whitesmoke;
+  text-decoration: none;
+  position: sticky;
+}
+
+.logo{
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+
+.nav-links{
+  display: flex;
+  color: rgb(226, 226, 226);
+  width: 30%;
+  
+  justify-content: space-around;
+}
+
+.nav-links li{
+  list-style: none;
+}
+
+.nav-links a{
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 14px;
+  
+}
+
+.background-image {
+    background-image: url('images/Website\ Background\.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+  
+  }
+
+/* footer*/
+
+
+
+footer img{
+border: 2px;
+border-radius:15px;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  justify-content: center;
+             
+}
